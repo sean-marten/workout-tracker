@@ -2,7 +2,7 @@ let mongoose = require("mongoose");
 let db = require("../model");
 
 mongoose.connect(
-  "mongodb+srv://smarten:J4erjb8ufssz!@clusterbcs.mn5kg.mongodb.net/workout-tracker?retryWrites=true&w=majority",
+  "",
   {
     useNewUrlParser: true,
     useFindAndModify: false,
